@@ -1,0 +1,12 @@
+{
+  "name": "employee-api",
+  "version": "1.0.0",
+  "description": "Employee Management API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
