@@ -1,5 +1,7 @@
 **Employee Management API**
-A Dockerized Node.js REST API built with Express.js to manage employee records. The application supports basic CRUD operations and demonstrates containerized deployment using Docker.
+
+A Dockerized Node.js REST API built with Express.js to manage employee records. 
+The application supports basic CRUD operations and demonstrates containerized deployment using Docker.
 
 **Features**
 Get all employees
