@@ -96,6 +96,7 @@ DELETE /employees/:id
 curl -X DELETE http://localhost:3000/employees/1
 
 ********Running with Docker*****************************
+
 ##Build Docker Image
 docker build -t employee-api:v1 .
 
@@ -125,6 +126,7 @@ Remove Container	docker rm -f employee-api
 Remove Image	docker rmi employee-api:v1
 
 ****************Dockerfile Explanation****************************
+
 Dockerfile
 
 FROM node:22-alpine
@@ -136,6 +138,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 
 ***************Instruction	Description********************************
+
 FROM node:22-alpine	Uses lightweight Node.js Alpine image.
 WORKDIR /app	Creates and switches to /app.
 COPY package*.json ./	Copies dependency files.
@@ -158,6 +161,7 @@ Client Request
 Response Returned
 
 *****************Future Enhancements***********************
+
 MongoDB Integration
 JWT Authentication
 Swagger API Documentation
@@ -166,5 +170,6 @@ Jenkins CI/CD Pipeline
 Docker Compose Support
 
 Author
+
 Ramesh
 DevOps | Docker & Kubernetes | Cloud Enthusiast
